@@ -96,7 +96,7 @@ const PaymentPage = () => {
       <div className="text-center mb-7">
         <h2 className="text-2xl font-bold">Payment Page</h2>
       </div>
-      <div className="bg-white p-5 rounded-lg shadow-md">
+      <div className="bg-gray-300 p-5 rounded-lg shadow-md">
         <button
           onClick={handleBackToCart}
           className="flex items-center py-2 text-[15px] text-black"
