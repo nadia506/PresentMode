@@ -11,7 +11,7 @@ const LandingPage = () => {
   const [filters, setFilters] = useState({
     categories: [],
   });
-  const [searchActive, setSearchActive] = useState(false); // State to manage search popup visibility
+  const [searchActive, setSearchActive] = useState(false);
 
   useEffect(() => {
     fetchProducts({ skip: 0, limit });
@@ -53,10 +53,6 @@ const LandingPage = () => {
     setSkip(skip + limit);
   };
 
-  const toggleSearch = () => {
-    setSearchActive(!searchActive);
-  };
-
   return (
     <section className={searchActive ? "blur" : ""}>
       <div className="text-center text-lg text-zinc-900 font-semibold">
@@ -80,7 +76,7 @@ const LandingPage = () => {
           </button>
         </div>
       )}
-      {/* Search popup */}
+
       {searchActive && (
         <div className="fixed inset-0 z-50 bg-gray-900 bg-opacity-50 flex justify-center items-center">
           <div className="relative bg-white rounded-lg shadow-lg p-4 w-full max-w-md">
