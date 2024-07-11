@@ -4,11 +4,11 @@ This is a simple e-commerce web application built with a React frontend and a No
 
 ## Features
 
--User authentication with JSON Web Token (JWT)
--Product browsing and filtering
--Responsive design for various devices
--Role-based access control (Admin vs. Users)
--Integrated payment functionality
+- User authentication with JSON Web Token (JWT)
+- Product browsing and filtering
+- Responsive design for various devices
+- Role-based access control (Admin vs. Users)
+- Integrated payment functionality
 
 ## How to run the app locally
 
